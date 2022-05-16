@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator Zeeshan Saeed</title>
+    <link href="./style/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/59f9d4f97d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-70447982-5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new date());
+
+      gtag("config", "UA-70447982-5");
+    </script>
+    <!-- Common Tags -->
+    <meta content="#171825" name="theme-color" />
+
+    <meta
+      name="keywords"
+      content="Simple JavaScript Calculator,  JavaScript, Calculator, JavaScript Calculator, JSCalci, JavaScriptCalci, Zeeshan Saeed"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <a
+          href=""
+          style="
+            text-decoration: none;
+            color: #f1c40f;
+            margin-left: 0.25rem;
+            text-transform: uppercase;
+          "
+          onclick="location.reload();"
+          >Calculator</a
+        >
+      </h1>
+      <div class="calculator">
+        <input type="text" name="screen" id="answer" readonly />
+        <table>
+          <tr>
+            <td><button>(</button></td>
+            <td><button>)</button></td>
+            <td>
+              <button
+                style="
+                  background-color: #e74c3c;
+                  font-weight: bold;
+                  color: #ecf0f1;
+                "
+              >
+                C
+              </button>
+            </td>
+            <td><button>%</button></td>
+          </tr>
+          <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button>X</button></td>
+          </tr>
+          <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td><button>-</button></td>
+          </tr>
+          <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td><button>+</button></td>
+          </tr>
+          <tr>
+            <td><button>0</button></td>
+            <td><button style="font-weight: bold">.</button></td>
+            <td><button>/</button></td>
+            <td>
+              <button
+                style="
+                  background-color: #2ecc71;
+                  font-weight: bold;
+                  color: #ecf0f1;
+                "
+              >
+                =
+              </button>
+            </td>
+          </tr>
+        </table>
+        <hr style="max-width: 50vw" />
+        <div
+          style="
+            display: flex;
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          Made With
+          <i style="margin: 0.15rem" class="fa-regular fa-heart"></i>By<a
+            style="text-decoration: none; color: #f1c40f; margin-left: 0.25rem"
+            target="_blank"
+            href="https://github.com/m-zeeshan-saeed"
+            >Zeeshan Saeed</a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="turn" style="text-transform: uppercase">
+      Please Turn Your device
+    </div>
+  </body>
+  <script src="./js-file/cal.js"></script>
+</html>
